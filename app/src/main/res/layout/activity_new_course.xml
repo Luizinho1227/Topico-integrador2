@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D1CD1E"
+    tools:context=".NewCourseActivity">
+
+    <!-- edit text para o nome do curso -->
+    <EditText
+        android:id="@+id/idEdtNomeCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FF9800"
+        android:hint="Nome da Pizza" />
+
+    <!-- edit text para a descrição do curso -->
+    <EditText
+        android:id="@+id/idEdtDescricaoCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FF9800"
+        android:hint="Ingredientes Da Pizza" />
+
+    <!-- edit text para a duração do curso -->
+    <EditText
+        android:id="@+id/idEdtDuracaoCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FF9800"
+        android:hint="Valor da Pizza" />
+
+    <!-- botão para salvar os dados no banco de dados ROOM -->
+    <Button
+        android:id="@+id/idBtnSaveCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#0037FF"
+        android:padding="5dp"
+        android:text="Gravar Pizza"
+        android:textAllCaps="false"
+        android:textColor="#FF9800" />
+
+</LinearLayout>
